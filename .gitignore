@@ -1,0 +1,24 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Arquivos de ambiente e segredos (NUNCA sobem pro Git)
+.env
+*.env
+
+# Ambiente Virtual Python
+.venv/
+venv/
+ENV/
+
+# Arquivos temporários e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE e Editor
+.vscode/
+.idea/
+
+# Arquivos de banco de dados locais ou logs (se houver)
+*.db
+*.sqlite3
+*.log
